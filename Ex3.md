@@ -18,9 +18,7 @@ edges = nx.read_edgelist("ga_edgelist", delimiter=',', nodetype=str)
 ```
 
 
-```python
 #### Drawing the graph for our edgelist
-```
 
 
 ```python
@@ -35,9 +33,7 @@ plt.show()
 
 
 
-```python
 #### Measuring betweenes
-```
 
 
 ```python
@@ -84,9 +80,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -100,9 +94,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Measuring closeness
-```
 
 
 ```python
@@ -149,9 +141,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -165,9 +155,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Measuring eigenvector
-```
 
 
 ```python
@@ -214,9 +202,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -230,9 +216,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Find a community with K-clique
-```
 
 
 ```python
@@ -256,9 +240,7 @@ plt.show()
 
 
 
-```python
 #### find a community using Louvain heuristices
-```
 
 
 ```python
@@ -275,9 +257,7 @@ plt.show()
 
 
 
-```python
 #### Check what the modularity is
-```
 
 
 ```python
@@ -289,9 +269,7 @@ print("modularity:", mod)
 
 
 
-```python
-#### And now for facebook links
-```
+#### And now for eurovision countries and who they voted for
 
 
 ```python
@@ -299,9 +277,7 @@ edges = nx.read_edgelist("euro.csv", delimiter=',', nodetype=str, edgetype=float
 ```
 
 
-```python
 #### Drawing the graph for our edgelist
-```
 
 
 ```python
@@ -316,9 +292,7 @@ plt.show()
 
 
 
-```python
 #### Measuring betweenes
-```
 
 
 ```python
@@ -379,9 +353,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -395,9 +367,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Measuring closeness
-```
 
 
 ```python
@@ -458,9 +428,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -474,9 +442,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Measuring eigenvector
-```
 
 
 ```python
@@ -537,9 +503,7 @@ C
 
 
 
-```python
 #### getting the max val
-```
 
 
 ```python
@@ -553,9 +517,7 @@ print ("Maxval:" + str(maxval) + " Keys:" + str(keys))
 
 
 
-```python
 #### Find a community with Network Clustering
-```
 
 
 ```python
@@ -572,9 +534,7 @@ plt.show()
 
 
 
-```python
 #### Check what the modularity is
-```
 
 
 ```python
@@ -586,9 +546,7 @@ print("modularity:", mod)
 
 
 
-```python
 #### find a community using Louvain heuristices
-```
 
 
 ```python
@@ -605,9 +563,7 @@ plt.show()
 
 
 
-```python
 #### Check what the modularity is
-```
 
 
 ```python
