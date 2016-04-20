@@ -10,7 +10,7 @@ import matplotlib.pylab as pylab
 import community
 
 ```
-
+## Using Grey's anatomy data
 
 ```python
 actors = nx.read_edgelist("ga_actors", delimiter=',', nodetype=str)
@@ -269,7 +269,7 @@ print("modularity:", mod)
 
 
 
-#### And now for eurovision countries and who they voted for
+## And now for eurovision countries and who they voted for
 
 
 ```python
